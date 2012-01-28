@@ -1,0 +1,14 @@
+Source: linerva-zephyr-syslog-config
+Section: linerva/admin
+Priority: extra
+Maintainer: Linerva Project <linerva@mit.edu>
+Build-Depends: cdbs (>= 0.4.85~),
+ debhelper (>= 8~),
+ dh-buildinfo
+Standards-Version: 3.8.4
+
+Package: linerva-zephyr-syslog-config
+Architecture: all
+Depends: ${misc:Depends}, debathena-zephyr-config, python, rsyslog, supervisor
+Description: Send syslog messages to zephyr
+ This package configures rsyslog to send syslog messages to zephyr.

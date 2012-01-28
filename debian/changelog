@@ -1,0 +1,5 @@
+linerva-zephyr-syslog-config (1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sat, 28 Jan 2012 03:09:52 -0500

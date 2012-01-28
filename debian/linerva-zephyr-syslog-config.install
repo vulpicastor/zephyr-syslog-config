@@ -1,0 +1,3 @@
+rsyslog/zephyr-syslog.conf etc/rsyslog.d
+supervisor/zephyr-syslog.conf etc/supervisor/conf.d
+zephyr-syslog usr/sbin
