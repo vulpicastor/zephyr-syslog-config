@@ -1,6 +1,7 @@
 linerva-zephyr-syslog-config (1.1) UNRELEASED; urgency=low
 
   * Ignore some named spam and sshd authentication failures.
+  * Ignore expired AFS tokens.
   * Show info from rsyslogd so we know when it restarts.
 
  -- Anders Kaseorg <andersk@mit.edu>  Sat, 28 Jan 2012 05:11:01 -0500
